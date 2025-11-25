@@ -1,29 +1,41 @@
 body {
     margin: 0;
+    background: #e9dfd3;
     font-family: Georgia, serif;
-    background: #f6f0e9;
 }
+
+.wrapper {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #f5efe7;
+    border: 8px solid #b8aea3;
+    padding-bottom: 40px;
+}
+
 
 header {
     background: #f47b20;
     color: white;
-    padding: 25px 0;
-    text-align: center;
-    font-size: 28px;
+    padding: 40px 0;
+    text-align: right;
+    font-size: 32px;
     font-weight: bold;
+    padding-right: 40px;
     letter-spacing: 2px;
+    font-family: 'Georgia', serif;
 }
 
+
 nav {
-    background: #4a3a35;
+    background: #3d2f2a;
     text-align: center;
     padding: 12px 0;
 }
 
 nav a {
     color: white;
-    margin: 0 20px;
     text-decoration: none;
+    margin: 0 30px;
     font-size: 14px;
     letter-spacing: 1px;
 }
@@ -32,23 +44,23 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
 .container {
-    max-width: 900px;
-    margin: 50px auto;
-    background: #fdfcfb;
-    padding: 40px;
-    border: 3px solid #d6cfc7;
+    width: 85%;
+    margin: 40px auto;
 }
+
 
 h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-    color: #3e2f2b;
+    font-size: 52px;
+    color: #3b2b26;
+    margin-bottom: 20px;
 }
 
+
 p {
-    line-height: 1.7;
-    color: #3e2f2b;
-    margin-bottom: 20px;
+    color: #3b2b26;
     font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
 }
