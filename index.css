@@ -1,20 +1,21 @@
+
 body {
     margin: 0;
-    background: #e9dfd3;
+    background-color: beige;
     font-family: Georgia, serif;
 }
 
 .wrapper {
     max-width: 1000px;
     margin: 30px auto;
-    background: #f5efe7;
-    border: 8px solid #b8aea3;
+    background-color: seashell; 
+    border: 8px;
+    border-color: tan;
     padding-bottom: 40px;
 }
 
-
 header {
-    background: #f47b20;
+    background-color: orange;
     color: white;
     padding: 40px 0;
     text-align: right;
@@ -22,12 +23,12 @@ header {
     font-weight: bold;
     padding-right: 40px;
     letter-spacing: 2px;
-    font-family: 'Georgia', serif;
+    font-family: Georgia, serif;
 }
 
 
 nav {
-    background: #3d2f2a;
+    background-color: saddlebrown;   
     text-align: center;
     padding: 12px 0;
 }
@@ -53,13 +54,13 @@ nav a:hover {
 
 h1 {
     font-size: 52px;
-    color: #3b2b26;
+    color: sienna;   
     margin-bottom: 20px;
 }
 
 
 p {
-    color: #3b2b26;
+    color: saddlebrown;
     font-size: 18px;
     line-height: 1.8;
     margin-bottom: 25px;
